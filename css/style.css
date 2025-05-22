@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*  GENERAL  */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* ESTO ES PARA EL HEADER  */
+  .encabezado {
+    background-color: #20232a;
+    color: #61dafb;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .titulo {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-navegacion .lista-navegacion {
+    list-style: none;
+  }
+  
+  .lista-navegacion li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .enlace {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .enlace:hover {
+    text-decoration: underline;
+  }
+  
+  /* ESTO ES PARA EL FOOTER */
+  .pie-pagina {
+    background-color: #20232a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+  
+  .texto-footer {
+    font-size: 14px;
+  }
+  
+  /*  MAIN COMPLETO (solo index)  */
+  .contenido-principal {
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .seccion-bienvenida {
+    margin-top: 20px;
+  }
+  
+  .subtitulo {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #20232a;
+  }
+  
+  .parrafo {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .imagen-portada {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  /*MOVIL*/
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 22px;
+  }
+
+  .contenido-principal {
+    padding: 20px;
+  }
+
+  .lista-navegacion li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .imagen-portada {
+    max-width: 100%;
+  }
+
+  .subtitulo {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .parrafo {
+    font-size: 15px;
+    text-align: justify;
+  }
+}
+/* TABLETS (769px a 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .titulo {
+    font-size: 26px;
+  }
+
+  .contenido-principal {
+    padding: 30px;
+    max-width: 95%;
+  }
+
+  .subtitulo {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .parrafo {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .lista-navegacion li {
+    margin: 0 5px;
+  }
+
+  .imagen-portada {
+    max-width: 90%;
+    margin: auto;
+    display: block;
+  }
+}
